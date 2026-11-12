@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Анна Ахматова и Николай Гумилёв — биография</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+:root{--cream:#f3ead9;--ink:#211e1b;--gold:#c5a46a;--muted:#d9cdbb}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#171614;color:var(--cream);font-family:Manrope,Arial,sans-serif}
+.deck{height:100dvh;width:100vw;position:relative}.slide{position:absolute;inset:0;display:none;padding:7vh 8vw 9vh;overflow:hidden;background-size:cover;background-position:center}
+.slide.active{display:flex;flex-direction:column;justify-content:center;animation:fade .45s ease}
+.slide:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,14,13,.91),rgba(15,14,13,.72) 55%,rgba(15,14,13,.43));}
+.slide>*{position:relative;z-index:1}
+@keyframes fade{from{opacity:.3;transform:translateY(8px)}to{opacity:1;transform:none}}
+.kicker{font-size:clamp(11px,1.1vw,15px);letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600}
+h1{font-size:clamp(48px,8vw,104px);line-height:.92;max-width:900px;margin-bottom:25px}
+h2{font-size:clamp(38px,5.2vw,68px);line-height:1;margin-bottom:24px}
+h3{font-size:clamp(25px,2.8vw,36px);color:var(--gold);margin-bottom:10px}
+p,li{font-size:clamp(15px,1.55vw,21px);line-height:1.55;color:#eee5d8}
+.lead{font-size:clamp(19px,2.1vw,28px);max-width:760px;color:#e4d7c4}
+.rule{width:90px;height:2px;background:var(--gold);margin:24px 0}
+.grid{display:grid;grid-template-columns:1.1fr .9fr;gap:5vw;align-items:center}
+.grid.equal{grid-template-columns:1fr 1fr}
+.portrait{width:100%;max-height:62vh;object-fit:cover;object-position:top;border:1px solid rgba(197,164,106,.65);box-shadow:18px 18px 0 rgba(197,164,106,.12);filter:sepia(.12) contrast(.96)}
+.card{background:rgba(20,18,16,.62);border:1px solid rgba(197,164,106,.35);padding:22px 25px;backdrop-filter:blur(5px)}
+ul{padding-left:22px;margin:0}li{margin:9px 0}
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:25px}
+.year{border-top:2px solid var(--gold);padding:14px 12px 0;background:rgba(15,14,13,.38)}
+.year b{font-family:"Cormorant Garamond",serif;font-size:30px;color:var(--gold)}
+.year p{font-size:15px;margin:6px 0 0}
+.quote{font-family:"Cormorant Garamond",serif;font-size:clamp(27px,3.6vw,48px);line-height:1.2;max-width:850px;color:#f4e8d5}
+.small{font-size:13px!important;color:#c9bba7!important;line-height:1.4}
+.controls{position:fixed;z-index:20;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:space-between;padding:15px 24px;background:linear-gradient(0deg,rgba(0,0,0,.72),transparent)}
+.controls button{background:rgba(197,164,106,.16);border:1px solid rgba(197,164,106,.6);color:var(--cream);padding:9px 16px;border-radius:3px;font:600 13px Manrope;cursor:pointer}
+.controls button:hover{background:rgba(197,164,106,.32)}
+.counter{font-size:13px;letter-spacing:.12em;color:#e4d7c4}.progress{position:fixed;z-index:21;bottom:0;left:0;height:3px;background:var(--gold);width:10%;transition:width .25s}
+@media(max-width:700px){.slide{padding:7vh 7vw 12vh}.grid,.grid.equal{grid-template-columns:1fr;gap:20px}.portrait{max-height:28vh;width:auto;max-width:75%;justify-self:center}.timeline{grid-template-columns:1fr 1fr;gap:9px}.year p{font-size:13px}.controls{padding:10px 12px}.card{padding:15px}.slide:before{background:rgba(15,14,13,.79)}}
+</style>
+</head>
+<body>
+<div class="deck">
+<section class="slide active" style="background-image:url('https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=2000&q=85')">
+ <div class="kicker">Литература · Серебряный век</div>
+ <h1>Анна Ахматова<br><span style="color:var(--gold)">&</span> Николай Гумилёв</h1>
+ <div class="rule"></div>
+ <p class="lead">Две судьбы, два поэтических голоса и одна эпоха, оставившая глубокий след в русской литературе.</p>
+ <p class="small" style="margin-top:35px">Биографическая презентация · 10 слайдов</p>
+</section>
+
+<section class="slide" style="background-image:url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=2000&q=85')">
+ <div class="kicker">01 / Эпоха</div><h2>Серебряный век</h2>
+ <p class="lead">Рубеж XIX–XX веков стал временем яркого обновления русской культуры.</p>
+ <div class="grid equal" style="margin-top:20px">
+  <div class="card"><h3>Новые направления</h3><p>Символизм, акмеизм и футуризм предлагали разные способы говорить о человеке, мире и времени.</p></div>
+  <div class="card"><h3>Новая поэзия</h3><p>Поэты искали выразительный язык, точный образ и собственный взгляд на быстро меняющуюся эпоху.</p></div>
+ </div>
+</section>
+
+<section class="slide" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2000&q=85')">
+ <div class="kicker">02 / Анна Ахматова</div>
+ <div class="grid">
+  <div><h2>Анна Андреевна Ахматова</h2><p class="lead">1889–1966</p><div class="rule"></div>
+   <ul><li>Родилась 23 июня 1889 года близ Одессы.</li><li>Настоящая фамилия — Горенко.</li><li>Детство прошло в Царском Селе.</li><li>Стала одной из крупнейших поэтесс Серебряного века.</li></ul>
+  </div>
+  <img class="portrait" src="https://commons.wikimedia.org/wiki/Special:FilePath/Akhmatova_by_Altman.jpeg" alt="Портрет Анны Ахматовой работы Натана Альтмана">
+ </div>
+</section>
+
+<section class="slide" style="background-image:url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=2000&q=85')">
+ <div class="kicker">03 / Ахматова: творчество</div><h2>Поэзия личного чувства</h2>
+ <div class="grid equal">
+  <div><p class="lead">Её стихи отличаются психологической глубиной, точностью деталей и сдержанной, выразительной интонацией.</p>
+   <ul><li>«Вечер» — 1912</li><li>«Чётки» — 1914</li><li>«Белая стая» — 1917</li><li>«Реквием» — произведение о трагедии репрессий</li></ul>
+  </div>
+  <div class="card"><h3>Главные темы</h3><p>Любовь и разлука, память, творчество, судьба человека и ответственность поэта перед своей эпохой.</p><p class="small">Ахматова сохранила верность родине и продолжала писать, несмотря на запреты и тяжёлые испытания.</p></div>
+ </div>
+</section>
+
+<section class="slide" style="background-image:url('https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=2000&q=85')">
+ <div class="kicker">04 / Николай Гумилёв</div>
+ <div class="grid">
+  <div><h2>Николай Степанович Гумилёв</h2><p class="lead">1886–1921</p><div class="rule"></div>
+   <ul><li>Родился 15 апреля 1886 года в Кронштадте.</li><li>Русский поэт, переводчик и литературный критик.</li><li>Один из основателей акмеизма.</li><li>Организовал литературное объединение «Цех поэтов».</li></ul>
+  </div>
+  <img class="portrait" src="https://commons.wikimedia.org/wiki/Special:FilePath/Ngumil.jpg" alt="Фотография Николая Гумилёва">
+ </div>
+</section>
+
+<section class="slide" style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=2000&q=85')">
+ <div class="kicker">05 / Гумилёв: творчество</div><h2>Романтика путешествий и мужества</h2>
+ <div class="grid equal">
+  <div class="card"><h3>Известные сборники</h3><ul><li>«Жемчуга» — 1910</li><li>«Чужое небо» — 1912</li><li>«Колчан» — 1916</li><li>«Огненный столп» — 1921</li></ul></div>
+  <div><p class="lead">В его стихах часто встречаются дальние страны, путешествия, сильные характеры и стремление к подвигу.</p><p>Гумилёв ценил ясность формы, точность слова и мастерство поэтического построения.</p></div>
+ </div>
+</section>
+
+<section class="slide" style="background-image:url('https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=2000&q=85')">
+ <div class="kicker">06 / Общая история</div><h2>Их отношения и семья</h2>
+ <div class="grid equal">
+  <div><p class="lead">Ахматова и Гумилёв познакомились в юности, в Царском Селе.</p>
+   <div class="timeline" style="grid-template-columns:1fr 1fr">
+    <div class="year"><b>1910</b><p>Поженились.</p></div>
+    <div class="year"><b>1912</b><p>Родился сын Лев.</p></div>
+    <div class="year"><b>1918</b><p>Брак завершился разводом.</p></div>
+    <div class="year"><b>1921</b><p>Гумилёв был расстрелян.</p></div>
+   </div>
+  </div>
+  <div class="card"><h3>«Цех поэтов»</h3><p>Оба поэта участвовали в литературной жизни Петербурга. Гумилёв стал одним из организаторов «Цеха поэтов», а Ахматова вошла в круг авторов, связанных с акмеизмом.</p></div>
+ </div>
+</section>
+
+<section class="slide" style="background-image:url('https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=2000&q=85')">
+ <div class="kicker">07 / Сходство и различия</div><h2>Два голоса одной эпохи</h2>
+ <div class="grid equal">
+  <div class="card"><h3>Ахматова</h3><p>Внимание к внутреннему миру человека, любви, памяти и личной драме. Лаконичный стиль и психологическая точность.</p></div>
+  <div class="card"><h3>Гумилёв</h3><p>Интерес к путешествиям, истории, экзотическим местам и сильным героям. Чёткая форма и приключенческий размах образов.</p></div>
+ </div>
+ <p class="lead" style="margin-top:25px">Их объединяли акмеизм, литературная среда Петербурга и стремление к точности поэтического слова.</p>
+</section>
+
+<section class="slide" style="background-image:url('https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=2000&q=85')">
+ <div class="kicker">08 / Наследие</div><h2>Память и значение</h2>
+ <p class="lead">Их судьбы сложились по-разному, но оба имени навсегда вошли в историю русской литературы.</p>
+ <div class="grid equal" style="margin-top:20px">
+  <div class="card"><h3>Ахматова</h3><p>Пережила несколько исторических катастроф XX века. Её произведения стали голосом личной и народной памяти.</p></div>
+  <div class="card"><h3>Гумилёв</h3><p>Оставил заметный след как поэт, путешественник, переводчик и один из создателей акмеизма.</p></div>
+ </div>
+</section>
+
+<section class="slide" style="background-image:url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=2000&q=85')">
+ <div class="kicker">09 / Итог</div><h2>Спасибо за внимание!</h2>
+ <p class="quote">«Их творчество помогает увидеть Серебряный век не только как литературную эпоху, но и как живую человеческую историю».</p>
+ <div class="rule"></div>
+ <p class="small">Источники и материалы:</p>
+ <p class="small">Президентская библиотека имени Б. Н. Ельцина — prlib.ru<br>
+ Русский музей — rusmuseumvrm.ru<br>
+ Портал «Әдебиет» — adebiportal.kz<br>
+ Wikimedia Commons — commons.wikimedia.org (портретные изображения)</p>
+ <p class="small" style="margin-top:18px">Подготовил: Болдырь Глеб</p>
+ <p class="small">Конец презентации</p>
+</section>
+</div>
+<div class="controls">
+ <button id="prev" aria-label="Предыдущий слайд">← Назад</button>
+ <span class="counter" id="counter">01 / 10</span>
+ <button id="next" aria-label="Следующий слайд">Вперёд →</button>
+</div>
+<div class="progress" id="progress"></div>
+<script>
+const slides=[...document.querySelectorAll('.slide')];let index=0;
+function show(n){index=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,i)=>s.classList.toggle('active',i===index));document.getElementById('counter').textContent=String(index+1).padStart(2,'0')+' / 10';document.getElementById('progress').style.width=((index+1)/slides.length*100)+'%';document.getElementById('prev').disabled=index===0;document.getElementById('next').disabled=index===slides.length-1}
+document.getElementById('prev').addEventListener('click',()=>show(index-1));document.getElementById('next').addEventListener('click',()=>show(index+1));
+document.addEventListener('keydown',e=>{if(['ArrowRight',' ','PageDown'].includes(e.key)){e.preventDefault();show(index+1)}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(index-1)}if(e.key==='Home')show(0);if(e.key==='End')show(slides.length-1)});
+let startX=0;document.addEventListener('touchstart',e=>startX=e.changedTouches[0].screenX,{passive:true});document.addEventListener('touchend',e=>{let dx=e.changedTouches[0].screenX-startX;if(Math.abs(dx)>55)show(index+(dx<0?1:-1))},{passive:true});
+show(0);
+</script>
+</body>
+</html>
